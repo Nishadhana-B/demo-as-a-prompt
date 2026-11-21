@@ -62,4 +62,4 @@ I could not deploy it to AgentCore Runtime from the sandbox, because it has no w
 - A public Lambda Function URL needs **two** resource-policy statements, `lambda:InvokeFunctionUrl` and `lambda:InvokeFunction` with the invoked-via-function-url condition, or you get a confusing 403. The AWS CLI I used had no flag for the second one, so I used boto3.
 - Designing for the environment you actually have beats designing for the one you wish you had.
 
-Code: *(add your GitHub link here)*
+Code: https://github.com/Nishadhana-B/demo-as-a-prompt
